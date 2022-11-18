@@ -1,3 +1,4 @@
+//Programa para achar o vetor cujos elementos são os elementos que estão em ambos os vetores iniciais, ou seja, se um elemento está no vetor 1 e também no vetor 2, ele será adicionado ao vetor de interseção (vetor 3)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -35,7 +36,7 @@ int main(){
         }
     }
 
-    int *vetor3 = (int *)malloc(k*sizeof(int)); //aloca o vetor de intersecao
+    int *vetor3 = (int *)malloc(k*sizeof(int)); //aloca o vetor de intersecao (vetor 3)
     k = 0; //para comecar da posicao 0 do vetor 3
     for(i = 0; i < n; i++){
         for(j = 0; j < m; j++){
