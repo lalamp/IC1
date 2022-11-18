@@ -1,3 +1,4 @@
+//Programa para mostrar a média aritmética simples, a média ponderada, o desvio padrão, o maior valor e o menor valor de um array com 5 elementos.
 #include <stdio.h>
 #include <math.h>
 
