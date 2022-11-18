@@ -1,3 +1,4 @@
+//Jogo Adivinha -> adivinhar o número sorteado pelo computador 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
